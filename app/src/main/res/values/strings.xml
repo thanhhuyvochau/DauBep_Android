@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">DauBep</string>
+    <string name="header_hello">Hello ABC, \nWhich food is you want to cook?</string>
+    <string name="personal">personal</string>
+    <string name="search_hint">Search material</string>
+    <string name="btn_home">Home</string>
+    <string name="btn_community">Community</string>
+    <string name="btn_scan">Scan</string>
+    <string name="btn_notification">Notification</string>
+    <string name="btn_personal">Personal</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="img_meat">Meat</string>
+    <string name="img_egg">Egg</string>
+    <string name="img_vegetable">Vegetable</string>
+    <string name="img_bean">Bean</string>
+    <string name="title_recommend">Recommend</string>
+    <string name="title_pho">Pho Bo</string>
+    <string name="title_noodle_soup">Noodle Soup</string>
+    <string name="title_hotpot">Hot Pot</string>
+    <string name="title_salad">Salad</string>
+    <string name="title_barbecue">Barbecue</string>
+    <string name="title_promotion">Promotion</string>
+</resources>
