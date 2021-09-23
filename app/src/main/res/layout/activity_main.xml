@@ -75,66 +75,121 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
 
-                <ImageButton
+                <LinearLayout
                     android:id="@+id/btnMeat"
-                    android:layout_width="50dp"
-                    android:layout_height="50dp"
-                    android:layout_marginTop="20dp"
-                    android:background="@drawable/shape_rounded_button"
-                    android:contentDescription="@string/img_meat"
-                    android:scaleType="centerInside"
-                    android:src="@drawable/meat_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:background="@android:color/transparent"
                     app:layout_constraintBottom_toTopOf="@id/barrier"
                     app:layout_constraintEnd_toStartOf="@+id/btnEgg"
                     app:layout_constraintHorizontal_bias="0.5"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
-                    app:layout_constraintVertical_bias="0.0" />
+                    app:layout_constraintVertical_bias="0.0"
+                    android:layout_marginTop="20dp">
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:src="@drawable/meat_2"
+                        android:scaleType="centerInside"/>
 
-                <ImageButton
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Meat"
+                        android:textAlignment="center"/>
+                </LinearLayout>
+
+                <LinearLayout
                     android:id="@+id/btnEgg"
-                    android:layout_width="50dp"
-                    android:layout_height="50dp"
-                    android:layout_marginTop="20dp"
-                    android:background="@drawable/shape_rounded_button"
-                    android:contentDescription="@string/img_egg"
-                    android:scaleType="centerInside"
-                    android:src="@drawable/egg2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:background="@android:color/transparent"
                     app:layout_constraintEnd_toStartOf="@+id/btnVegetable"
                     app:layout_constraintHorizontal_bias="0.5"
                     app:layout_constraintStart_toEndOf="@+id/btnMeat"
                     app:layout_constraintTop_toTopOf="parent"
-                    app:layout_constraintVertical_bias="1.0" />
+                    app:layout_constraintVertical_bias="1.0"
+                    android:layout_marginTop="20dp">
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:src="@drawable/egg2"
+                        android:scaleType="centerInside"/>
 
-                <ImageButton
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Egg"
+                        android:textAlignment="center"/>
+                </LinearLayout>
+
+                <LinearLayout
                     android:id="@+id/btnVegetable"
-                    android:layout_width="50dp"
-                    android:layout_height="50dp"
-                    android:layout_marginTop="20dp"
-                    android:background="@drawable/shape_rounded_button"
-                    android:contentDescription="@string/img_vegetable"
-                    android:scaleType="centerInside"
-                    android:src="@drawable/vegetable1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:background="@android:color/transparent"
                     app:layout_constraintEnd_toStartOf="@+id/btnBean"
                     app:layout_constraintHorizontal_bias="0.5"
                     app:layout_constraintStart_toEndOf="@+id/btnEgg"
                     app:layout_constraintTop_toTopOf="parent"
-                    app:layout_constraintVertical_bias="0.0" />
+                    app:layout_constraintVertical_bias="0.0"
+                    android:layout_marginTop="20dp">
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:src="@drawable/vegetable1"
+                        android:scaleType="centerInside"/>
 
-                <ImageButton
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Egg"
+                        android:textAlignment="center"/>
+                </LinearLayout>
+
+<!--                <ImageButton-->
+<!--                    android:id="@+id/btnBean"-->
+<!--                    android:layout_width="50dp"-->
+<!--                    android:layout_height="50dp"-->
+<!--                    android:layout_marginTop="20dp"-->
+<!--                    android:background="@drawable/shape_rounded_button"-->
+<!--                    android:contentDescription="@string/img_bean"-->
+<!--                    android:scaleType="centerInside"-->
+<!--                    android:src="@drawable/bean1"-->
+<!--                    app:layout_constraintEnd_toEndOf="parent"-->
+<!--                    app:layout_constraintHorizontal_bias="0.5"-->
+<!--                    app:layout_constraintStart_toEndOf="@+id/btnVegetable"-->
+<!--                    app:layout_constraintTop_toTopOf="parent"-->
+<!--                    app:layout_constraintVertical_bias="0.0" />-->
+
+                <LinearLayout
                     android:id="@+id/btnBean"
-                    android:layout_width="50dp"
-                    android:layout_height="50dp"
-                    android:layout_marginTop="20dp"
-                    android:background="@drawable/shape_rounded_button"
-                    android:contentDescription="@string/img_bean"
-                    android:scaleType="centerInside"
-                    android:src="@drawable/bean1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:background="@android:color/transparent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="0.5"
                     app:layout_constraintStart_toEndOf="@+id/btnVegetable"
                     app:layout_constraintTop_toTopOf="parent"
-                    app:layout_constraintVertical_bias="0.0" />
+                    app:layout_constraintVertical_bias="0.0"
+                    android:layout_marginTop="20dp">
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:src="@drawable/bean1"
+                        android:scaleType="centerInside"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Egg"
+                        android:textAlignment="center"/>
+                </LinearLayout>
 
                 <androidx.constraintlayout.widget.Barrier
                     android:id="@+id/barrier"
